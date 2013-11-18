@@ -1,0 +1,24 @@
+make  all-recursive
+make[1]: Entering directory `/home/TORADEX/Demo_06/wev1'
+Making all in src
+make[2]: Entering directory `/home/TORADEX/Demo_06/wev1/src'
+  CC     main.o
+  CC     windows.o
+  CC     admin.o
+  CC     profile.o
+  CC     ticker.o
+  CC     blood_pressure.o
+  CC     body_fat.o
+  CC     smoking_detector.o
+  CC     weight_n_bmi.o
+  CC     keypad.o
+  CC     Timer.o
+  CC     demon_file_ops.o
+  CC     summary_screen.o
+  CC     ProcessCSV.o
+  CC     choose_graph_image.o
+  CC     qn_and_ans.o
+  CC     exit.o
+  CCLD   wev1
+make[2]: Leaving directory `/home/TORADEX/Demo_06/wev1/src'
+make[1]: Leaving directory `/home/TORADEX/Demo_06/wev1'

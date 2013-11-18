@@ -1,0 +1,11 @@
+exit.c:291: warning: passing argument 1 of 'gtk_label_set_label' from incompatible pointer type
+/usr/include/gtk-3.0/gtk/gtklabel.h:99: note: expected 'struct GtkLabel *' but argument is of type 'struct GtkWidget *'
+  CCLD   wev1
+/opt/toolchain/arm-2009q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/../../../../arm-none-linux-gnueabi/bin/ld: cannot find -lgtk-3
+collect2: ld returned 1 exit status
+make[2]: *** [wev1] Error 1
+make[2]: Leaving directory `/home/TORADEX/Demo_06/wev1/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/home/TORADEX/Demo_06/wev1'
+make: *** [all] Error 2
+	

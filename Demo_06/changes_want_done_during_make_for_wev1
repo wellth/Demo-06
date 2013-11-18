@@ -1,0 +1,56 @@
+am_wev1_OBJECTS = main.$(OBJEXT) windows.$(OBJEXT) admin.$(OBJEXT) \
+        profile.$(OBJEXT) ticker.$(OBJEXT) blood_pressure.$(OBJEXT) \
+        body_fat.$(OBJEXT) ecg.$(OBJEXT) smoking_detector.$(OBJEXT) \
+        weight_n_bmi.$(OBJEXT) keypad.$(OBJEXT) Timer.$(OBJEXT) \
+        demon_file_ops.$(OBJEXT) summary_screen.$(OBJEXT) \
+        ProcessCSV.$(OBJEXT) choose_graph_image.$(OBJEXT) \
+        qn_and_ans.$(OBJEXT) exit.$(OBJEXT)
+
+
+
+wev1_SOURCES = \
+        main.c \
+        windows.c \
+        admin.c \
+        admin.h \
+        window_defs_n_config.h \
+        profile.c \
+        ticker.c \
+        blood_pressure.c \
+        ecg.c \
+        body_fat.c \
+        smoking_detector.c \
+        weight_n_bmi.c \
+        main_test_backend.h \
+        keypad.c \
+        Timer.c \
+        demon_file_ops.c \
+        DemonRetuns.h \
+        summary_screen.c \
+        ProcessCSV.c \
+        ProcessCSV.h \
+        choose_graph_image.c \
+        qn_and_ans.c \
+        exit.c
+
+
+
+include ./$(DEPDIR)/ProcessCSV.Po
+include ./$(DEPDIR)/Timer.Po
+include ./$(DEPDIR)/admin.Po
+include ./$(DEPDIR)/blood_pressure.Po
+include ./$(DEPDIR)/ecg.Po
+include ./$(DEPDIR)/body_fat.Po
+include ./$(DEPDIR)/choose_graph_image.Po
+include ./$(DEPDIR)/demon_file_ops.Po
+include ./$(DEPDIR)/exit.Po
+include ./$(DEPDIR)/keypad.Po
+include ./$(DEPDIR)/main.Po
+include ./$(DEPDIR)/profile.Po
+include ./$(DEPDIR)/qn_and_ans.Po
+include ./$(DEPDIR)/smoking_detector.Po
+include ./$(DEPDIR)/summary_screen.Po
+include ./$(DEPDIR)/ticker.Po
+include ./$(DEPDIR)/weight_n_bmi.Po
+include ./$(DEPDIR)/windows.Po
+
